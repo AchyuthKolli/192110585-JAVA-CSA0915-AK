@@ -1,0 +1,14 @@
+import java.util.*;
+public class vectors {
+    public static void main(String s[]){
+        Vector<String> al=new Vector<String>();
+        al.add("mike");
+        al.add("mick");
+        al.add("mile");
+        Iterator<String> i=al.iterator();
+        for(String ch:al)
+        {
+            System.out.println(ch);
+        }
+    }
+}
