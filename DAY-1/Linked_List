@@ -1,0 +1,16 @@
+import java.util.*;
+public class Linked_List
+{
+    public static void main(String s[])
+    {
+        LinkedList<String> al=new LinkedList<String>();
+        al.add("mike");
+        al.add("mick");
+        al.add("mile");
+        Iterator<String> i=al.iterator();
+        for(String ch:al)
+        {
+            System.out.println(ch);
+        }
+    }
+}
