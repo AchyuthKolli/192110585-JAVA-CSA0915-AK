@@ -1,7 +1,7 @@
 public class replacestring {
     public static void main(String[] args){
         String s = "varun";
-        String g = s.replace("varun","indhu");
+        String g = s.replace("kah","ak");
         System.out.println(g);
     }
 }
