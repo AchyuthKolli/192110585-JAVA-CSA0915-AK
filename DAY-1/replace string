@@ -1,6 +1,6 @@
 public class replacestring {
     public static void main(String[] args){
-        String s = "varun";
+        String s = "kah";
         String g = s.replace("kah","ak");
         System.out.println(g);
     }
